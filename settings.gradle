@@ -1,0 +1,3 @@
+include ':app', ':qrscanner', ':app_landscape', 'Update', ':rfidclientsdk', ':rfidservice'
+include ':pullToReflash_library'
+include ':testretrofix'

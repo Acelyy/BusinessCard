@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BusinessCard.iml" filepath="$PROJECT_DIR$/BusinessCard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Update/Update.iml" filepath="$PROJECT_DIR$/Update/Update.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_landscape/app_landscape.iml" filepath="$PROJECT_DIR$/app_landscape/app_landscape.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullToReflash_library/pullToReflash_library.iml" filepath="$PROJECT_DIR$/pullToReflash_library/pullToReflash_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qrscanner/qrscanner.iml" filepath="$PROJECT_DIR$/qrscanner/qrscanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rfidclientsdk/rfidclientsdk.iml" filepath="$PROJECT_DIR$/rfidclientsdk/rfidclientsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rfidservice/rfidservice.iml" filepath="$PROJECT_DIR$/rfidservice/rfidservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testretrofix/testretrofix.iml" filepath="$PROJECT_DIR$/testretrofix/testretrofix.iml" />
+    </modules>
+  </component>
+</project>

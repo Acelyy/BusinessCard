@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_order"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yonggang.liyangyang.businesscard.OrderActivity">
+
+    <ListView
+        android:id="@+id/list_order"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/magin_10"
+        android:layout_weight="1"
+        android:divider="@null">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginEnd="@dimen/magin_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总价："
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/sum_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥100"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/is_discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/magin_10"
+            android:visibility="gone"
+            android:text="7折" />
+
+        <Button
+            android:id="@+id/btn_pay_cash"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/width55"
+            android:layout_marginBottom="@dimen/magin_10"
+            android:layout_marginEnd="@dimen/magin_20"
+            android:layout_marginStart="@dimen/magin_20"
+            android:layout_marginTop="@dimen/magin_10"
+            android:background="@drawable/button_forget_pass"
+            android:text="去付款"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size18" />
+    </LinearLayout>
+
+</LinearLayout>

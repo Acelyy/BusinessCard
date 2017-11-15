@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBlank">#FFFFFF</color>
+    <color name="colorSystemBack">#F2F2F2</color>
+    <color name="colorMainClick">#16ADFC</color>
+    <color name="colorMainUnclick">#666666</color>
+    <color name="color_black">#000000</color>
+    <color name="back_register_edit">#F0F0F0</color>
+    <color name="text_register_edit">#F0F0F0</color>
+    <color name="text_login_edit">#999999</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+</resources>

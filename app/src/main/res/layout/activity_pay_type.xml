@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yonggang.liyangyang.businesscard.PayTypeActivity">
+
+
+    <Button
+        android:id="@+id/btn_pay_card"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/width55"
+        android:layout_marginEnd="@dimen/magin_20"
+        android:layout_marginStart="@dimen/magin_20"
+        android:layout_marginTop="@dimen/magin_20"
+        android:background="@drawable/button_forget_pass"
+        android:text="刷卡支付"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size18" />
+
+    <Button
+        android:id="@+id/btn_pay_qrCode"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/width55"
+        android:layout_marginEnd="@dimen/magin_20"
+        android:layout_marginStart="@dimen/magin_20"
+        android:layout_marginTop="@dimen/magin_20"
+        android:background="@drawable/button_forget_pass"
+        android:text="二维码支付"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size18" />
+
+    <Button
+        android:id="@+id/btn_pay_cash"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/width55"
+        android:layout_marginEnd="@dimen/magin_20"
+        android:layout_marginStart="@dimen/magin_20"
+        android:layout_marginTop="@dimen/magin_20"
+        android:background="@drawable/button_forget_pass"
+        android:text="现金支付"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size18"
+        android:visibility="gone" />
+</LinearLayout>

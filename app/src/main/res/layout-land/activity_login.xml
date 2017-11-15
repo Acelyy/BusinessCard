@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yonggang.liyangyang.businesscard.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/magin_20"
+            android:text="账号密码登录"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/main_title_size" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/magin_20"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设备号："
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/main_title_size" />
+
+
+            <TextView
+                android:id="@+id/device_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="02"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/main_title_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+
+            android:layout_marginStart="@dimen/magin_20">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="版本号："
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/main_title_size" />
+
+
+            <TextView
+                android:id="@+id/version_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="02"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/main_title_size" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/width55"
+        android:layout_marginEnd="@dimen/magin_20"
+        android:layout_marginStart="@dimen/magin_20"
+        android:background="@drawable/shape_register_edit"
+        android:hint="请输入您的账号"
+        android:paddingEnd="@dimen/magin_10"
+        android:paddingStart="@dimen/magin_10"
+        android:singleLine="true"
+        android:textColor="@color/text_login_edit"
+        android:textSize="@dimen/text_size18" />
+
+    <EditText
+        android:id="@+id/edit_pass"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/width55"
+        android:layout_marginEnd="@dimen/magin_20"
+        android:layout_marginStart="@dimen/magin_20"
+        android:layout_marginTop="@dimen/magin_10"
+        android:background="@drawable/shape_register_edit"
+        android:hint="请输入6~20位密码"
+        android:inputType="textPassword"
+        android:paddingEnd="@dimen/magin_10"
+        android:paddingStart="@dimen/magin_10"
+        android:singleLine="true"
+        android:textColor="@color/text_login_edit"
+        android:textSize="@dimen/text_size18" />
+
+    <Button
+        android:id="@+id/btn_complete"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/width55"
+        android:layout_marginEnd="@dimen/magin_20"
+        android:layout_marginStart="@dimen/magin_20"
+        android:layout_marginTop="@dimen/magin_20"
+        android:background="@drawable/button_register_login"
+        android:text="登录"
+        android:textColor="@color/colorBlank"
+        android:textSize="@dimen/text_size18" />
+
+
+</LinearLayout>

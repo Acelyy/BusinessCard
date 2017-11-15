@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">读卡器服务</string>
+    <string name="app_start_notification">读卡器服务启动</string>
+</resources>

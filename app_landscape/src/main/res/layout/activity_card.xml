@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yonggang.liyangyang.businesscard.CardActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/magin_20"
+        android:gravity="center"
+        android:text="请刷卡"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/main_title_size" />
+
+    <TextView
+        android:id="@+id/edit_card_id"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/width55"
+        android:layout_marginEnd="@dimen/magin_20"
+        android:layout_marginStart="@dimen/magin_20"
+        android:background="@drawable/shape_register_edit"
+        android:paddingEnd="@dimen/magin_10"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/magin_10"
+        android:singleLine="true"
+        android:textColor="@color/text_login_edit"
+        android:textSize="@dimen/text_size18" />
+
+    <Button
+        android:id="@+id/btn_complete"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/width55"
+        android:layout_marginEnd="@dimen/magin_20"
+        android:layout_marginStart="@dimen/magin_20"
+        android:layout_marginTop="@dimen/magin_20"
+        android:background="@drawable/button_register_login"
+        android:text="确定"
+        android:textColor="@color/colorBlank"
+        android:textSize="@dimen/text_size18" />
+
+</LinearLayout>

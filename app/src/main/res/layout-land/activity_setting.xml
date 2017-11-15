@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yonggang.liyangyang.businesscard.SettingActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/magin_10"
+        android:gravity="center"
+        android:text="商户设置"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/main_title_size" />
+
+    <EditText
+        android:id="@+id/edit_tel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/width45"
+        android:layout_marginEnd="@dimen/magin_20"
+        android:layout_marginStart="@dimen/magin_20"
+        android:layout_marginTop="@dimen/magin_10"
+        android:background="@drawable/shape_register_edit"
+        android:hint="手机号"
+        android:inputType="number"
+        android:paddingEnd="@dimen/magin_10"
+        android:paddingStart="@dimen/magin_10"
+        android:singleLine="true"
+        android:textColor="@color/text_login_edit"
+        android:textSize="@dimen/text_size18" />
+
+    <TextView
+        android:id="@+id/edit_discount"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/width45"
+        android:layout_marginEnd="@dimen/magin_20"
+        android:layout_marginStart="@dimen/magin_20"
+        android:layout_marginTop="@dimen/magin_10"
+        android:background="@drawable/shape_register_edit"
+        android:gravity="center_vertical"
+        android:inputType="numberDecimal"
+        android:paddingEnd="@dimen/magin_10"
+        android:paddingStart="@dimen/magin_10"
+        android:singleLine="true"
+        android:text="请输入折扣，0.1~1"
+        android:textColor="@color/text_login_edit"
+        android:textSize="@dimen/text_size18" />
+
+    <Button
+        android:id="@+id/btn_complete"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/width45"
+        android:layout_marginEnd="@dimen/magin_20"
+        android:layout_marginStart="@dimen/magin_20"
+        android:layout_marginTop="@dimen/magin_20"
+        android:background="@drawable/button_register_login"
+        android:text="保存"
+        android:textColor="@color/colorBlank"
+        android:textSize="@dimen/text_size18" />
+
+</LinearLayout>

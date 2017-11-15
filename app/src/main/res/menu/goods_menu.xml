@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_goods"
+        android:title="添加商品" />
+    <item
+        android:id="@+id/setting"
+        android:title="商户设置" />
+    <item
+        android:id="@+id/query_order"
+        android:title="销售记录" />
+    <item
+        android:id="@+id/connect_blue"
+        android:title="连接打印机"
+        android:visible="false"/>
+    <item
+        android:id="@+id/change_pass"
+        android:title="修改密码" />
+
+    <item
+        android:id="@+id/delete_device"
+        android:title="解绑设备" />
+</menu>
