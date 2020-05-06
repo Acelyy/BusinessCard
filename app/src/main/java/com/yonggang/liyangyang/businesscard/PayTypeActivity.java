@@ -84,7 +84,7 @@ public class PayTypeActivity extends BaseActivity {
                     //显示扫描到的内容
                     String code = bundle.getString("result");
                     getCardByCode(code);
-                    //Toast.makeText(this, code, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, code, Toast.LENGTH_SHORT).show();
                 }
                 break;
         }

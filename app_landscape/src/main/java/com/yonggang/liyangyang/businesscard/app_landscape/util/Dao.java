@@ -45,7 +45,7 @@ public class Dao {
         Cursor cursor = database.rawQuery(sql, null);
         while (cursor.moveToNext()) {
             Goods g = new Goods(cursor.getInt(0), cursor.getString(1), cursor.getFloat(2), cursor.getInt(3));
-            DecimalFormat df = new DecimalFormat("#0.0");
+            DecimalFormat df = new DecimalFormat("#0.00");
             g.setPrice(Double.parseDouble(df.format(g.getPrice())));
             goods.add(g);
         }

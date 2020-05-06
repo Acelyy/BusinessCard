@@ -26,7 +26,7 @@ public class AddGoodsActivity extends BaseActivity {
 
     Dao dao;
 
-    DecimalFormat df = new DecimalFormat("#0.0");
+    DecimalFormat df = new DecimalFormat("#0.00");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

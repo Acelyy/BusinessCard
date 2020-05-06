@@ -32,7 +32,7 @@ public class OrderActivity extends BaseActivity {
     ArrayList<Goods> data = new ArrayList<Goods>();
     OrderAdapter adapter;
     double sum;
-    DecimalFormat df = new DecimalFormat("#.0");
+    DecimalFormat df = new DecimalFormat("#.00");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

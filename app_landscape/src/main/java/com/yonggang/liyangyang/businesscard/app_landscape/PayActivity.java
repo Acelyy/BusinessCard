@@ -51,7 +51,7 @@ public class PayActivity extends BaseActivity {
     private double sum;
     private double sum_discount;
 
-    DecimalFormat df = new DecimalFormat("#0.0");
+    DecimalFormat df = new DecimalFormat("#0.00");
 
     ArrayList<Goods> data;
 

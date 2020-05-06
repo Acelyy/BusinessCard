@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BusinessCard.iml" filepath="$PROJECT_DIR$/BusinessCard.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Update/Update.iml" filepath="$PROJECT_DIR$/Update/Update.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app_landscape/app_landscape.iml" filepath="$PROJECT_DIR$/app_landscape/app_landscape.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pullToReflash_library/pullToReflash_library.iml" filepath="$PROJECT_DIR$/pullToReflash_library/pullToReflash_library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/qrscanner/qrscanner.iml" filepath="$PROJECT_DIR$/qrscanner/qrscanner.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rfidclientsdk/rfidclientsdk.iml" filepath="$PROJECT_DIR$/rfidclientsdk/rfidclientsdk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rfidservice/rfidservice.iml" filepath="$PROJECT_DIR$/rfidservice/rfidservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testretrofix/testretrofix.iml" filepath="$PROJECT_DIR$/testretrofix/testretrofix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BusinessCard.iml" filepath="$PROJECT_DIR$/BusinessCard.iml" group="BusinessCard" />
+      <module fileurl="file://$PROJECT_DIR$/Update/Update.iml" filepath="$PROJECT_DIR$/Update/Update.iml" group="BusinessCard/Update" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="BusinessCard/app" />
+      <module fileurl="file://$PROJECT_DIR$/app_landscape/app_landscape.iml" filepath="$PROJECT_DIR$/app_landscape/app_landscape.iml" group="BusinessCard/app_landscape" />
+      <module fileurl="file://$PROJECT_DIR$/pullToReflash_library/pullToReflash_library.iml" filepath="$PROJECT_DIR$/pullToReflash_library/pullToReflash_library.iml" group="BusinessCard/pullToReflash_library" />
+      <module fileurl="file://$PROJECT_DIR$/qrscanner/qrscanner.iml" filepath="$PROJECT_DIR$/qrscanner/qrscanner.iml" group="BusinessCard/qrscanner" />
+      <module fileurl="file://$PROJECT_DIR$/rfidclientsdk/rfidclientsdk.iml" filepath="$PROJECT_DIR$/rfidclientsdk/rfidclientsdk.iml" group="BusinessCard/rfidclientsdk" />
+      <module fileurl="file://$PROJECT_DIR$/rfidservice/rfidservice.iml" filepath="$PROJECT_DIR$/rfidservice/rfidservice.iml" group="BusinessCard/rfidservice" />
+      <module fileurl="file://$PROJECT_DIR$/testretrofix/testretrofix.iml" filepath="$PROJECT_DIR$/testretrofix/testretrofix.iml" group="BusinessCard/testretrofix" />
     </modules>
   </component>
 </project>
