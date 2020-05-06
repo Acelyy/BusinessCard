@@ -16,7 +16,7 @@ android {
         config {
             keyAlias 'Android_lyy'
             keyPassword '12348888'
-            storeFile file('/Users/liyangyang/Desktop/android_lyy.jks')
+            storeFile file('./android_lyy.jks')
             storePassword '12345678'
         }
     }
